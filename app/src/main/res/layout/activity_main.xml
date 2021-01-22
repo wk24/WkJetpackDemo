@@ -15,6 +15,22 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <com.wuk.jetpackdemo.AnimLogoView
+            android:id="@+id/anim_logo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:autoPlay="true"
+            app:gradientAnimDuration="2000"
+            app:gradientColor="@color/teal_200"
+            app:logoName="Seagazerasdfasgagagdasfgagagad"
+            app:offsetAnimDuration="1500"
+            app:showGradient="true"
+            app:textColor="@color/purple_200"
+            app:textPadding="2dp"
+            app:textSize="30sp"
+            app:verticalOffset="50dp" />
+
+
         <FrameLayout
             android:id="@+id/fl_container"
             android:layout_width="match_parent"
